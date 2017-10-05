@@ -1,7 +1,7 @@
-# Docker image for adding Node 6.11.2 to circleci/golang:1.9.0
+# Docker image for adding Node 6.11.2 to circleci/golang:1.9.1
 
 # FROM https://github.com/circleci/circleci-images/blob/master/shared/images/Dockerfile-basic.template
-FROM golang:1.9.0
+FROM golang:1.9.1
 
 # make Apt non-interactive
 RUN echo 'APT::Get::Assume-Yes "true";' > /etc/apt/apt.conf.d/90circleci \
