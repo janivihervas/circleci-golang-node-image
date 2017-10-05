@@ -11,7 +11,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: vihervas/circleci-golang-node:1.9.0-6.11.2
+      - image: vihervas/circleci-golang-node:1.9.1-6.11.2
     working_directory: /go/src/<path-to-go-repo>
     steps:
       - run: go version     # 1.9.0
