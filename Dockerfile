@@ -1,4 +1,4 @@
-# Docker image for adding Node 6.11.2 to circleci/golang:1.9.1
+# Docker image for adding Node 6.11.2 to circleci/golang:1.9.2
 
 # FROM https://github.com/circleci/circleci-images/blob/master/shared/images/Dockerfile-basic.template
 FROM golang:1.9.2
